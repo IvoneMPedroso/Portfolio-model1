@@ -1,0 +1,50 @@
+#experiencias{
+    padding-bottom: 150px;
+   padding-top: 100px;
+}
+
+#experiencias h1{
+    font-family: "Cardo", serif;
+    margin-bottom: 50px;
+}
+
+.experienciasContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.experienciasContainer > div{
+    width: 45%;
+    height: 200px;
+    background-color: var(--roxoMedio);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2%;
+    padding: 30px;
+    border-top: 5px solid var(--roxoClaro);
+    border-radius: 30px;
+    background: linear-gradient(130deg, var(--roxoEscuro) 0%, var(--roxoMedio) 50%, var(--roxoClaro) 100%);
+    transition: all .5s;
+}
+
+.experienciasContainer > div:hover{
+    transform: scale(1.2);
+}
+
+.experienciasContainer > div h2{
+    font-size: var(--fonteSubtitulo); /*selecionando o filho da div para qualquer H2 contido nela*/
+}
+
+.experienciasContainer > div a{
+    color: var(--corBranco);
+    border: 2px solid var(--roxoClaro);
+    border-radius: 30px;
+    padding: 10px 20px; /* primeiro valor para vertical e segundo valor para horizontal*/
+    display: inline-block;
+    text-transform: uppercase; /* Transforma o texto todo em caixa alta*/
+    margin-top: 20px;
+    background-color: transparent;
+}

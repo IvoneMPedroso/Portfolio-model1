@@ -1,0 +1,32 @@
+#navegacao{
+    width: 100%;
+    height: 80px;
+    background-color: var(--roxoEscuro);
+    color: var(--corBranco);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed; /*trava a posição do meu elemento*/
+}
+
+#navegacao ul{
+    display: flex;
+    flex-direction: row;
+}
+
+#navegacao a{
+    color: var(--corBranco);
+    font-size: var(--fonteParagrafo);
+    margin-right: 30px;
+}
+
+#navegacao a:hover{
+    color: var(--roxoClaro);
+    font-size: 30px;
+}
+
+#navegacao h1:hover{
+    color: var(--roxoClaro);
+    font-size: 50px;
+}

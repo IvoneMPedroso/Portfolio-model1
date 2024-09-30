@@ -1,0 +1,33 @@
+#habilidades{
+    background-color: var(--corFundo);
+    color: var(--corBranco);
+    text-align: center;
+}
+
+#habilidades h1{
+    font-size: var(--fonteTitulo);
+}
+
+#habilidades ul{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+#habilidades ul img{
+    height: 30px;
+    width: 30px;
+}
+
+#habilidades li{
+    background-color: #251c31;
+    padding: 15px;
+    border-radius: 100%;
+}
+
+#habilidades > img{ /* Seleciona a imagem filha da seção e define largura em %, pois dessa forma ela consegue ajustar na tela */
+    width: 80%;
+}
+
